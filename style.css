@@ -1,0 +1,301 @@
+body{
+ margin:0; 
+ padding: 0;
+ font-family: Roboto;
+ background-image: url("background.jpg");
+ background-size: cover;
+ background-attachment: fixed;
+}
+
+/* below is the code of navigation bar */
+
+nav{
+	margin: auto;
+	width: 90%;
+	text-align: center;
+	padding: 20px;
+	box-sizing: border-box;
+	background: black;
+	height: 85px;
+	margin-bottom: 20px;
+}
+
+nav ul li{
+	list-style: none;
+	display: inline-block;
+	padding: 5px;
+	border-radius: 5px;
+	text-align: center;
+}
+/* making hover */
+nav ul li:hover{
+	background: pink;
+
+}
+
+nav ul li a{
+	margin:15px 20px;
+	text-decoration: none;
+	display: inline-block;
+	color: white;
+	justify-content: space-around;
+
+}
+/*it is of navigation button */
+.navbtn{
+	width: 100%;	
+	padding: 2px 5px;
+	background: black;
+	text-align: right;
+	box-sizing: border-box;
+	display: none;
+	background-color: rgba(0,0,0,0.5);
+}
+
+
+.about_content img
+{
+	height:30%;
+	 width:30%; 
+}
+
+.navbtn img{
+	height:40px;
+    width:40px;
+
+}
+
+.follow ul li{
+display: inline-block;
+}
+ul li{
+	list-style: none;
+}
+
+
+.img1{
+	width: 100%;
+
+}
+.img1 img {
+	border-radius: 40%;
+	height:50%;
+	 width:40%; 
+}
+
+/* below is the code of about page */
+
+
+.homepage
+{
+height: 700px;
+text-align: center;
+
+}
+
+
+
+
+.aboutpage
+{
+height: 900px;
+text-align: center;
+margin: 20px;
+display: flex;
+flex-direction: column;
+}
+
+
+.page
+{
+	height: 1000px;
+text-align: center;
+margin: 20px;
+}
+
+.homepad {
+    padding: 9em 0 0 0;
+}
+
+.home_title {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+/* below is the code of cv page */
+
+
+.cv_content
+{   margin:  0px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	width: 100%;
+	margin: 10px
+
+}
+.cvpage
+{
+	display: flex;
+	flex-direction: column;	
+	justify-content: space-between;
+	flex-wrap: wrap;
+	margin: 0px;
+	border: 5px solid green;
+
+}
+.cv_right
+{
+	width: 500px;border-radius: 20px;
+	margin: 20px;
+	border:5px solid green;
+}
+.cv_up{
+	border: 5px solid green;
+	width: 500px; border-radius: 20px;
+	height: 180px;
+	margin: 20px;
+}
+
+.cv_left
+{
+	width: 500px;
+	margin: 20px;
+	border:5px solid green;border-radius: 20px;
+}
+/* below is the code of social page */
+.socialpage
+{
+	height: 1000px;
+text-align: center;
+margin: 20px;
+}
+
+
+.foot_txt{
+	text-align: center;
+}
+
+footer{
+	background-color: #333;
+	color: white;
+	margin: 0;
+	padding: 5px;
+	text-align: center;
+}
+
+.socialpage{
+	flex-direction: column;
+}
+
+
+
+.socialpage
+{
+	flex-direction: column;
+	margin: 0px;
+}
+/* below is the code of social page */
+
+.contactpage
+{
+	height: 999px;
+text-align: center;
+margin: 20px;
+}
+
+
+
+ 
+
+.background2 img{
+	width: 150px;
+	height: 150px;
+	border-radius: 50%; 
+
+}
+.background3 {
+	padding-top: 200px;
+
+}
+.background2{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.space{
+	padding-right: 20px;
+}
+
+
+.assignment{
+	background-image: white;
+
+}
+
+
+/* code for making page device responisve */
+
+@media screen and (max-width: 600px){
+	.navbtn{
+		display: block;
+		width: 100%;
+	}
+ nav ul {flex-direction: column; width: 100%;}
+ nav ul li{width: 100%; padding: 0px;margin-bottom: 1px;
+   }
+
+   
+.homepage{flex-direction: column;
+	width: 100%;
+}
+
+
+
+/* below is the code of contact page */
+.contactpage
+{
+	flex-direction: row;
+	margin: 0px;
+}
+
+.aboutpage
+{
+	flex-direction: column;
+	margin: 0px;
+}
+
+.about_content img{
+	border-radius: 50%
+}
+
+
+.about_content p
+{
+	font-size: 20px;
+	color: white;
+}
+
+.photo img{
+	border-radius: 50%;
+}
+
+iframe{
+	width: 80%;
+}
+
+textarea{
+	width: 30%;
+	height: 200px;
+
+}
+
+iframe{	
+	margin:20px;
+}
+
+
+
+
